@@ -9,7 +9,6 @@ import {
   CLEAR_CART,
   TOGGLE_CART
 } from '../utils/actions';
-import { useReducer } from 'react';
 
 const initialState = {
   products: [],
