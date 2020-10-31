@@ -4,12 +4,13 @@ import { useQuery } from '@apollo/react-hooks';
 import ProductItem from "../ProductItem";
 import { QUERY_PRODUCTS } from "../../utils/queries";
 import { UPDATE_PRODUCTS } from '../../utils/actions';
-import { useStoreContext } from '../../utils/GlobalState';
+import { useSelector, useDispatch } from 'react-redux';
 import { idbPromise } from '../../utils/helpers';
 import spinner from "../../assets/spinner.gif";
 
 function ProductList() {
-  const [state, dispatch] = useStoreContext();
+  const state = useSelector(state => state);
+  const dispatch = useDispatch();
 
   const { currentCategory } = state;
 
