@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-An e-commerce platform that uses Redux for state management and Stripe for payment. Add and remove items from your cart, sort products by category, and checkout with Stripe to save the order to your order history.
+A MERN-Stack e-commerce platform that uses Redux for state management, IndexedDB and MongoDB for data persistence, and Stripe for payment. Add and remove items from your cart, sort products by category, and checkout with Stripe to save the order to your order history.
 
 ## Table of Contents
 * [Screenshots](#screenshots)
